@@ -1,6 +1,3 @@
-# Ionic Login App
-
-Aplikasi ini adalah contoh implementasi fitur login menggunakan **Ionic** sebagai front-end dan **PHP** dengan **MySQL** sebagai back-end.
 
 ## Cara Kerja Login
 
@@ -17,17 +14,18 @@ Aplikasi ini adalah contoh implementasi fitur login menggunakan **Ionic** sebaga
 
 Berikut adalah contoh tampilan aplikasi saat proses login:
 
-![Screenshot(156](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(156).png)
+![Screenshot(156)](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(156).png)
 *Gambar 1: Form Login pada aplikasi Ionic.*
 
-![(https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(157).png)]
+![Screenshot(157)][(https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(157).png)
 *Gambar 2: Notifikasi jika login berhasil.*
 
-![(https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(158).png)]
-*Gambar 2: Notifikasi jika login berhasil.*
+![Screenshot(158)](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(158).png)
+*Gambar 2: Notifikasi jika login gagal.*
 
-![(https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(15).png)]
+![[Screenshot(2024-11-01 181912)](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%202024-11-01%20181912.png)
 *Gambar 2: Alur Login.*
+
 ## Langkah 1
 
 1. Database API: Buat tabel `user` di database dengan kolom `username` dan `password`.
