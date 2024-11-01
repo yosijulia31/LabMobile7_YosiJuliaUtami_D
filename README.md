@@ -54,15 +54,5 @@ respon : (res.status_login == "gagal")
 5. Logout:
 Jika pengguna memilih untuk keluar, aplikasi akan menghapus data login dan mengarahkan kembali ke halaman login.
 
-## Alur Login
-Pengguna -> Masukkan Username dan Password -> Tekan Login
-     |
-     v
-Validasi Input -> Jika Kosong -> Notifikasi
-     |
-     v
-Permintaan ke Server -> Jika Berhasil -> Simpan Token dan Username
-     |                                   |
-     v                                   v
-Arahkan ke Home                   Notifikasi Gagal
+
 
