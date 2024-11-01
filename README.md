@@ -17,13 +17,13 @@ Berikut adalah contoh tampilan aplikasi saat proses login:
 ![Screenshot(156)](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(156).png)
 *Gambar 1: Form Login pada aplikasi Ionic.*
 
-![Screenshot(157)][(https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(157).png)
+![Screenshot(157)](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(157).png)
 *Gambar 2: Notifikasi jika login berhasil.*
 
 ![Screenshot(158)](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(158).png)
-*Gambar 2: Notifikasi jika login gagal.*
+*Gambar 3: Notifikasi jika login gagal.*
 
-![[Screenshot(2024-11-01 181912)](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%202024-11-01%20181912.png)
+![Screenshot(2024-11-01181912)](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%202024-11-01%20181912.png)
 *Gambar 2: Alur Login.*
 
 ## Langkah 1
