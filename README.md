@@ -1,14 +1,14 @@
 
 ## Cara Kerja Login
 
-1. **Input Data Pengguna**: Pengguna memasukkan **username** dan **password** di form login.
-2. **Hash Password**: Jika password di database menggunakan hashing (contoh: MD5), aplikasi akan meng-hash password sebelum mengirimkannya ke server untuk verifikasi.
-3. **Kirim Data ke Server**: Data dikirim ke endpoint API login (`login.php`) menggunakan metode POST.
-4. **Verifikasi di Server**: Server mengecek apakah **username** dan **password** cocok dengan data yang ada di database.
-5. **Pemberian Notifikasi**:
+1. Input Data Pengguna: Pengguna memasukkan **username** dan **password** di form login.
+2. Hash Password: Jika password di database menggunakan hashing (contoh: MD5), aplikasi akan meng-hash password sebelum mengirimkannya ke server untuk verifikasi.
+3. Kirim Data ke Server: Data dikirim ke endpoint API login (`login.php`) menggunakan metode POST.
+4. Verifikasi di Server: Server mengecek apakah **username** dan **password** cocok dengan data yang ada di database.
+5. Pemberian Notifikasi:
    - Jika berhasil, pengguna akan diarahkan ke halaman utama atau halaman selanjutnya.
    - Jika gagal, muncul pesan "Username atau Password Salah".
-6. **Penyimpanan Token (Jika Diperlukan)**: Jika server mengembalikan token sebagai bukti autentikasi, token disimpan di **local storage** untuk menjaga sesi tetap aktif hingga logout.
+6. Jika server mengembalikan token sebagai bukti autentikasi, token disimpan di **local storage** untuk menjaga sesi tetap aktif hingga logout.
 
 ## Screenshot
 
@@ -48,13 +48,14 @@ Berikut adalah contoh tampilan aplikasi saat proses login:
 1. Tampilan Halaman Login: melihat halaman login dengan dua input: username dan password, serta tombol Login.
 2. Menekan Tombol Login: Saat tombol ditekan, aplikasi memeriksa apakah username dan password telah diisi.
 3. Kirim Permintaan Login: Jika input valid, aplikasi mengirim permintaan ke server dengan username dan password.
-4. Tanggapan dari Server: Login Berhasil: Jika server mengonfirmasi bahwa - - login sukses, aplikasi menyimpan token dan username pengguna untuk sesi 
-tersebut, lalu mengarahkan pengguna ke halaman utama.
-respon : (res.status_login == "berhasil")
-- Login Gagal: Jika login gagal (misalnya, username atau password salah), aplikasi menampilkan pesan notifikasi bahwa login tidak berhasil.
-respon : (res.status_login == "gagal")
+4. Tanggapan dari Server: Login Berhasil:
+  Jika server mengonfirmasi bahwa - - login sukses, aplikasi menyimpan token dan username pengguna untuk sesi 
+  tersebut, lalu mengarahkan pengguna ke halaman utama.
+  respon : (res.status_login == "berhasil")
+  - Login Gagal: Jika login gagal (misalnya, username atau password salah), aplikasi menampilkan pesan notifikasi bahwa    
+  login tidak berhasil. respon : (res.status_login == "gagal")
 5.Status Pengguna: Aplikasi menggunakan mekanisme untuk menyimpan status login (terautentikasi atau tidak) menggunakan BehaviorSubject, yang memungkinkan bagian lain aplikasi mengetahui apakah pengguna sudah masuk.
-5. Logout:
+6. Logout:
 Jika pengguna memilih untuk keluar, aplikasi akan menghapus data login dan mengarahkan kembali ke halaman login.
 
 
