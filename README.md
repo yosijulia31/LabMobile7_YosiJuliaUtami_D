@@ -17,7 +17,7 @@ Aplikasi ini adalah contoh implementasi fitur login menggunakan **Ionic** sebaga
 
 Berikut adalah contoh tampilan aplikasi saat proses login:
 
-![(https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(156).png)]
+![Screenshot(156](https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(156).png)
 *Gambar 1: Form Login pada aplikasi Ionic.*
 
 ![(https://github.com/yosijulia31/LabMobile7_YosiJuliaUtami_D/blob/main/screenshoot/Screenshot%20(157).png)]
